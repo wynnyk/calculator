@@ -1,0 +1,195 @@
+.body {
+    display: flex;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    height: 600px;
+    width: 400px;
+    border: 7px double black;
+    border-radius: 5px;
+}
+
+.frame {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 25px;
+    background-color: #8A825C;
+    height: 80px;
+    width: 350px;
+    border: 2px inset black;
+    border-radius: 2px;
+}
+
+.current {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    font-size: 75px;
+    line-height: 1;
+    font-family: "Digital-7", monospace;
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+  
+.buttons button {
+    transition: filter 0.3s; 
+}
+  
+.buttons button:hover {
+    filter: brightness(0.8); 
+}
+
+
+.firstrow {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 10px;
+}
+
+.secondrow {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 10px;
+}
+
+.thirdrow {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 10px;
+}
+
+.fourthrow {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 10px;
+}
+
+.fifthrow {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 10px;
+}
+
+button {
+    border: 3px inset black;
+    border-radius: 5px;
+}
+
+.operator {
+    background-color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+.number {
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+#clear {
+    flex: 1;
+    background-color: lightcoral;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+#back {
+    flex: 1;
+    background-color: lightblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+#seven {
+    flex: 1
+}
+
+#eight {
+    flex: 1
+}
+
+#nine {
+    flex: 1
+}
+
+#divide {
+    flex: 1
+}
+
+#four {
+    flex: 1
+}
+
+#five {
+    flex: 1
+}
+
+#six {
+    flex: 1
+}
+
+#multiply {
+    flex: 1
+}
+
+#one {
+    flex: 1
+}
+
+#two {
+    flex: 1
+}
+
+#three {
+    flex: 1
+}
+
+#minus {
+    flex: 1
+}
+
+#decimal {
+    flex: 1
+}
+
+#zero {
+    flex: 1
+}
+
+#equals {
+    flex: 1;
+    background-color: slategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
+
+#plus {
+    flex: 1
+}
+
